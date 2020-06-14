@@ -7,6 +7,8 @@
     margin: 0 auto;
     text-align: center;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
@@ -39,5 +41,35 @@
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
 }
+
+.header-text {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-title {
+    font-size: 44px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-dark-color);
+}
+
+.page-description {
+    font-size: 16px;
+    font-family: "Merriweather", sans-serif;
+    font-style: italic;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px var(--primary-dark-color) solid;
+    padding: 20px 50px;
+    margin-top: 40px;
+}
+
 
 
