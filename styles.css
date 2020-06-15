@@ -2,3 +2,12 @@
 @import "assets/css/grid.css";
 @import "components/components.css";
 @import "assets/css/variables.css";
+
+* {
+    box-sizing: border-box;
+}
+.one-line-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
