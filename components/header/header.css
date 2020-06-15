@@ -68,6 +68,33 @@
     margin-top: 40px;
 }
 
+.circle-1 {
+    border-radius: 50%;
+    border: 5px #f0f0f0 solid;
+    position: absolute;
+    bottom: 13%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.circle-2 {
+    border-radius: 50%;
+    border: 5px #e0e0e0 solid;
+    position: absolute;
+    bottom: 11%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.circle-3 {
+    border-radius: 50%;
+    border: 5px #d0d0d0 solid;
+    position: absolute;
+    bottom: 9%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
 .menu-panel {
     position: fixed;
     top: 10px;
