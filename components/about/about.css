@@ -24,3 +24,35 @@
 .buildings {
     margin-top: auto;
 }
+
+.about-title, .about-description {
+    color: var(--primary-light-color);
+}
+
+.about-title {
+    font-size: 38px;
+}
+
+.about-description {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4;
+    padding-top: 20px;
+}
+
+.about-2011 {
+    position: relative;
+    margin-top: 80px;
+    text-align: right;
+    padding: 0 20px 0 50px;
+}
+
+.circle-2011 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    right: -27.5px;
+    top: 0;
+    background-color: var(--primary-dark-color);
+}
