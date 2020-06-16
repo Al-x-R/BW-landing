@@ -1,11 +1,9 @@
 #header {
+    background: var(--primary-light-color);
     height: 100vh;
     width: 100%;
-    max-width: 1920px;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -21,9 +19,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    top: 0;
-    margin: auto;
 }
 
 .main-nav-list {
@@ -41,7 +36,7 @@
 
 .header-text {
     display: flex;
-    margin: auto;
+    padding-top: 270px;
     flex-direction: column;
     align-items: center;
 }
@@ -65,7 +60,7 @@
     text-transform: uppercase;
     border: 1px var(--primary-dark-color) solid;
     padding: 20px 50px;
-    margin-top: 40px;
+    margin-top: 55px;
 }
 
 .circle-1 {
@@ -118,6 +113,3 @@
         height: 56px;
     }
 }
-
-
-
