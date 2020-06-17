@@ -61,3 +61,36 @@
 .circle-2011 {
     right: -27.5px;
 }
+
+.right {
+    left: 105%;
+    position: relative;
+    text-align: left;
+    padding: 0 50px 0 20px;
+}
+
+.about-2012 {
+    margin-top: 15px;
+}
+
+.circle-2012 {
+    left: -26px;
+}
+
+.about-2013 {
+    margin-top: 115px;
+}
+
+.circle-2013 {
+    width: 50px;
+    height: 50px;
+    right: -40px;
+}
+
+.about-2014 {
+    margin: 100px 0 290px;
+}
+
+.circle-2014 {
+    left: -26px;
+}
