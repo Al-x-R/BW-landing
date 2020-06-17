@@ -2,17 +2,61 @@
     background: var(--primary-light-color);
     text-align: center;
     height: 50vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.team-title, .user-name {
+    color: var(--primary-dark-color);
 }
 
 .team-title {
     font-size: 35px;
-    font-family: 'Roboto', sans-serif;
-    color: var(--primary-dark-color);
     padding: 70px 0 20px;
 }
 
 .team-description {
     font-family: 'Merriweather', serif;
     font-size: 16px;
+}
+
+.user-card, .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-image {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.team-description, .user-description {
     color: var(--primary-text-color);
 }
+
+.user-name {
+    font-size: 24px;
+    padding: 25px 0 10px;
+}
+
+.user-description {
+    padding-bottom: 25px;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.icon {
+    padding: 0 10px;
+}
+
+
+
+
