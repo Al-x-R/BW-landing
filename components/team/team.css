@@ -1,3 +1,18 @@
 #team {
     background: var(--primary-light-color);
+    text-align: center;
+    height: 50vh;
+}
+
+.team-title {
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-dark-color);
+    padding: 70px 0 20px;
+}
+
+.team-description {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    color: var(--primary-text-color);
 }
