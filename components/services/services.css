@@ -1,0 +1,35 @@
+#services {
+    margin-top: 50px;
+    position: relative;
+    color: var(--primary-light-color);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#services:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -5px;
+    right: -5px;
+    height: 100%;
+    z-index: -1;
+    background-color: var(--primary-dark-color);
+    transform: rotate(-5deg) skew(-5deg);
+}
+
+.title-block {
+    padding-top: 80px;
+}
+
+.services-title {
+    font-size: 35px;
+
+}
+
+.services-description {
+    padding: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
