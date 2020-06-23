@@ -81,3 +81,13 @@
     text-transform: uppercase;
     color: var(--primary-dark-color);
 }
+
+@media screen and (max-width: 992px) {
+    .service-title {
+        padding: 40px 0;
+    }
+
+    .service-description {
+        padding-bottom: 40px;
+    }
+}
