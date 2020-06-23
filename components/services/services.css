@@ -33,3 +33,27 @@
     font-size: 16px;
     line-height: 1.2;
 }
+
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 200px 0 400px;
+}
+
+.service-icon img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.service-title {
+    font-size: 26px;
+    color: var(--primary-text-color);
+    padding: 80px 0;
+}
+
+.service-description {
+    font-size: 18px;
+    line-height: 1.2;
+    color: #363636;
+}
