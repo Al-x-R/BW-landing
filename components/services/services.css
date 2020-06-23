@@ -68,3 +68,16 @@
     top: 55%;
     transform: translate(-50%, 0);
 }
+
+.button {
+    border: none;
+    padding-bottom: 200px;
+}
+
+.btn {
+    background: var(--primary-light-color);
+    padding: 20px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--primary-dark-color);
+}
