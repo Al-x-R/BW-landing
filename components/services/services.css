@@ -57,3 +57,14 @@
     line-height: 1.2;
     color: #363636;
 }
+
+.blog-decor {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, 0);
+}
