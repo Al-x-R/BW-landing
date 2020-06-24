@@ -1,23 +1,18 @@
 #services {
     margin-top: 50px;
+    width: 100%;
     position: relative;
     color: var(--primary-light-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;
-}
-
-#services:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -5px;
-    right: -5px;
-    height: 100%;
-    z-index: -1;
-    background-color: var(--primary-dark-color);
     transform: rotate(-5deg) skew(-5deg);
+    background-color: var(--primary-dark-color);
+    overflow: hidden;
 }
 
+#services .container {
+    transform: rotate(5deg) skew(5deg);
+}
 .title-block {
     padding-top: 80px;
 }
@@ -64,7 +59,7 @@
     position: absolute;
     bottom: 100px;
     right: 0;
-    left: 50%;
+    left: 55%;
     top: 55%;
     transform: translate(-50%, 0);
 }
